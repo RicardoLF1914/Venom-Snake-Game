@@ -41,6 +41,87 @@ body {
     color: var(--second-color);
 }
 
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    background-image: url('./assets/Venom.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    animation: fadeInBackground 2s ease-in forwards;
+}
+
+main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+    z-index: 1;
+}
+
+@keyframes fadeInBackground {
+    to {
+        opacity: 1;
+    }
+}
+
+.game-title {
+    font-size: 64px;
+    font-family: "Creepster";
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: fadeInTitle 1s ease-in 2s forwards;
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 4px 8px #000000cc;
+}
+
+@keyframes fadeInTitle {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.start-button {
+    padding: 15px 40px;
+    font-size: 24px;
+    font-family: "Marvel";
+    background-color: var(--main-color);
+    color: var(--second-color);
+    border: solid var(--second-color);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInButton 1s ease-in 2.5s forwards;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+@keyframes fadeInButton {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.start-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
 footer {
     display: flex;
     align-items: center;
