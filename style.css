@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Bitcount Single", sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+:root {
+    --main-color: #000;
+    --second-color: #fff;
+}
+
+body {
+    background-color: var(--main-color);
+    color: var(--second-color);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    border-bottom: 1px solid var(--second-color)
+}
