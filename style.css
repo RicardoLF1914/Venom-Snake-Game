@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Creepster&family=Krona+One&family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
   margin: 0;
@@ -20,6 +20,8 @@ html, body {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     background-color: var(--main-color);
     color: var(--second-color);
 }
@@ -30,4 +32,55 @@ header {
     justify-content: center;
     height: 80px;
     border-bottom: 1px solid var(--second-color)
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-color);
+    color: var(--second-color);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 80px;
+    border-top: 1px solid var(--second-color);
+
+    p {
+        font-family: "Krona One";
+        font-size: 14px;
+    }
+
+    p:nth-child(1) {
+        flex: 1;
+        text-align: left;
+    }
+
+    p:nth-child(2) {
+        flex: 1;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex: 1;
+        display: flex;
+        gap: 20px;
+        justify-content: flex-end;
+
+        a {
+            transition: transform 0.3s ease;
+        }
+
+        a:hover {
+            filter: brightness(1.5) drop-shadow(0 0 8px #ffffff99);
+        }
+
+        img {
+            height: 30px;
+            width: 30px;
+        }
+    }
 }
