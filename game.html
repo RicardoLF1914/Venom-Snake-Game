@@ -11,8 +11,19 @@
         <h1>Venom Snake Game</h1>
     </header>
 
-    <main>
-        
+    <main class="game-main">
+        <div class="game-container">
+            <div class="score-board">
+                <p>Pontuação: <span id="pontuacao-display">0</span></p>
+            </div>
+            
+            <canvas id="tela" width="300" height="300"></canvas>
+            
+            <div class="game-controls">
+                <p>Use as setas do teclado para controlar</p>
+                <button id="restart-button">Jogar Novamente</button>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -29,5 +40,7 @@
             </a>
         </div>
     </footer>
+
+    <script src="game.js"></script>
 </body>
 </html>
