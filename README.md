@@ -72,7 +72,7 @@ venom-snake-game/
 ## 🌐 Browser Compatibility
 
 Tested and working on:
-- Google Chrome (recommended)
+- Google Chrome
 - Mozilla Firefox
 - Microsoft Edge
 - Brave
