@@ -26,33 +26,6 @@ A game based on the classic snake game, but with characters from the Spider-Man 
 5. Avoid hitting the walls or your own body
 6. Try to achieve the highest score possible!
 
-## 📁 Project Structure
-```
-venom-snake-game/
-│
-├── index.html              # Main menu page
-├── game.html               # Game page
-├── style.css               # Stylesheet for both pages
-├── game.js                 # Game logic and mechanics
-│
-├── assets/                 # Static assets
-│   ├── Venom.jpg          # Background image for menu
-│   ├── github.svg         # GitHub icon
-│   └── linkedin.svg       # LinkedIn icon
-│
-├── sprites/               # Game character sprites
-│   ├── venom_head.png    # Venom head sprite
-│   ├── venom_body.png    # Venom body sprite
-│   ├── spiderman.png     # Spider-Man sprite (collectible)
-│   └── carnage.png       # Carnage sprite (obstacle)
-│
-└── sound-effects/         # Audio files
-    ├── bite.mp3          # Eating sound effect
-    ├── theme-song.mp3    # Background music
-    ├── game-over.mp3     # Game over sound
-    └── defeated.mp3      # Defeat sound effect
-```
-
 ## 🎨 Technologies Used
 
 - **HTML5**: Structure and Canvas API for game rendering
