@@ -50,7 +50,7 @@ A game based on the classic snake game, but with characters from the Spider-Man 
 
 ## 📄 Credits
 
-- **Characters**: © Marvel Comics. All rights reserved.
+- **Characters**: Marvel Comics. All rights reserved.
 - **Game Design**: Classic Snake game mechanics
 - **Development**: Ricardo Linhares
 
