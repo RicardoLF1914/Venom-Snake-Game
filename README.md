@@ -42,15 +42,6 @@ A game based on the classic snake game, but with characters from the Spider-Man 
   - -10 points for hitting Carnage
   - Minimum score: 0
 
-## 🌐 Browser Compatibility
-
-Tested and working on:
-- Google Chrome
-- Mozilla Firefox
-- Microsoft Edge
-- Brave
-- Safari
-
 ## 👨‍💻 Developer
 
 **Ricardo Linhares**
